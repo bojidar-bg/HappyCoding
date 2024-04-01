@@ -5,6 +5,13 @@ Magic numbers:
 */
 
 @font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/opensans/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
   font-family: 'Fixedsys';
   font-style: normal;
   font-weight: 400;
@@ -21,14 +28,14 @@ Magic numbers:
   font-family: 'HappyCoding';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/happycoding/happycoding.ttf');
+  src: url('/fonts/happycoding/happycoding.ttf');
   -webkit-font-smoothing: aliased;
   font-smooth: never;
 }
 
 body {
   margin: 10px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #323232;
 
   background-repeat: no-repeat;
